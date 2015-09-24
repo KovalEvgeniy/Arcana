@@ -1,0 +1,18 @@
+.donate {
+	background:#06AADC;
+	padding: 80px;
+
+	h2 {
+		font-size: 28px;
+		padding:15px;
+		color: #fff;
+	}
+
+	&__btn {
+		background:#fff;
+		font-size: 20px;
+		border: none;
+		border-radius:5px;
+		padding:20px;
+	}
+}
