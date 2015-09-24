@@ -50,18 +50,6 @@
 			height: 210px;
 			resize: none;
 		}
-		&--submit {
-			@extend input;
-			//cursor: pointer;
-			background: #524C4C;
-			color: #fff;
-			text-align: center;
-
-			&:hover {
-				background: -webkit-linear-gradient(bottom, #524C4C, #716767);
-			}
-
-		}
 	}
 
 	&__social {

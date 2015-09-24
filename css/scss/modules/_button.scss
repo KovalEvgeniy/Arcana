@@ -5,9 +5,9 @@
   border-radius: 5px;
   padding: 0 35px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   transition: .5s ease-in-out;
-  font-size: 17px;
+  font-size: 16px;
 
   &--blue {
     background: #37C0FB;
@@ -22,10 +22,11 @@
     }
   }
   &--grey {
-    background: #333;
+    background: #524C4C;
+    color: #fff;
     
     &:hover {
-      opacity: .9;
+      background: #626262;//-webkit-linear-gradient(bottom, #524C4C, #716767);
     }
   }
 }
