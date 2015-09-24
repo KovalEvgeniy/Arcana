@@ -947,18 +947,6 @@ li {
   width: 100%;
   background: rgba(33, 33, 33, 0.8); }
 
-.btn {
-  height: 50px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding-left: 30px;
-  pading-right: 30px;
-  text-align: center; }
-  .btn--blue {
-    background: #37C0FB; }
-
 .donate {
   background: #06AADC;
   padding: 50px; }
@@ -977,5 +965,26 @@ li {
     .donate__btn:hover {
       color: #06AADC;
       transition: .5s ease-in-out; }
+
+.btn {
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 35px;
+  text-align: center;
+  font-weight: 500; }
+  .btn--blue {
+    background: #37C0FB;
+    color: white; }
+  .btn--white {
+    background: #333;
+    color: #333; }
+    .btn--white:hover {
+      color: #37C0FB; }
+  .btn--grey {
+    background: #333; }
+    .btn--grey:hover {
+      opacity: .9; }
 
 /*# sourceMappingURL=style.css.map */
