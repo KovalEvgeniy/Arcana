@@ -1,9 +1,8 @@
 .main-header {
-  
-  
+
   &__caption {
     padding: 40px;
-    background: url("../../../img/bg01.png");
+    background: url("../img/bg01.png");
     text-align: center;
     font-weight: 300;
   }
@@ -11,7 +10,7 @@
   &__banner {
     position: relative;
     height: 300px;
-    background: url("../../../img/banner.jpg");
+    background: url("../img/banner.jpg");
   }
   
 }
@@ -34,6 +33,17 @@
   bottom: 0;
   width: 100%;
   background: rgba(33, 33, 33, 0.8);
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
-
-
+.title {
+  padding: 20px;
+  
+  b {
+    color: #fff;
+  }
+  color: #ccc;
+}

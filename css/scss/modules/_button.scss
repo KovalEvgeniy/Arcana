@@ -9,9 +9,17 @@
   transition: .5s ease-in-out;
   font-size: 16px;
   color: #fff;
+  color: inherit;
   transition: .5s ease-in-out;
   cursor: pointer;
 
+  &--underline {
+    border-bottom: 1px dotted;
+    transition: .5s;
+    
+    &:hover { color: #fff; }
+  }
+  
   &--blue {
     background: #37C0FB;
     
