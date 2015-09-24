@@ -6,6 +6,9 @@
   padding: 0 35px;
   text-align: center;
   font-weight: 500;
+  transition: .5s ease-in-out;
+  font-size: 16px;
+  color: #fff;
   color: inherit;
   transition: .5s;
   cursor: pointer;
@@ -33,10 +36,15 @@
     }
   }
   &--grey {
-    background: #333;
+    background: #524C4C;
+    color: #fff;
     
     &:hover {
+<<<<<<< HEAD
       background: #222;
+=======
+      background: #626262;//-webkit-linear-gradient(bottom, #524C4C, #716767);
+>>>>>>> f748f92fb52c05ba795b10de60982c51b08f3fe5
     }
   }
 }
