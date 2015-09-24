@@ -59,6 +59,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  font: 16px 'Open Sans', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200px; }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -778,6 +787,7 @@ table {
 .affix {
   position: fixed; }
 
+<<<<<<< HEAD
 .contacts {
   background: #EFEFEF;
   padding: 80px 0; }
@@ -816,6 +826,15 @@ table {
     .contacts__social span {
       padding: 20px; }
 
+=======
+<<<<<<< HEAD
+.main-header__caption {
+  padding: 40px;
+  background: url("../../../img/bg01.png");
+  text-align: center;
+  font-weight: 100; }
+=======
+>>>>>>> 767e8eec202f63242aeb2ee42c6b5fdbdbd737ae
 .advantages-header {
   font-family: 'Open Sans', sans-serif;
   padding: 100px 0;
@@ -849,5 +868,6 @@ table {
       color: #93939B;
       line-height: 1.3;
       letter-spacing: .3; }
+>>>>>>> 21f77d07bd63bd24af088809bdbd07b2be210243
 
 /*# sourceMappingURL=style.css.map */
