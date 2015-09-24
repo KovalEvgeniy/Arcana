@@ -49,6 +49,10 @@
 	&__social {
 		text-align: center;
 		padding:40px 0;
-		opacity: .5;
+		opacity: .3;
+
+		& span {
+			padding:20px;
+		}
 	}
 }
