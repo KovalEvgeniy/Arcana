@@ -82,6 +82,12 @@ a {
 li {
   list-style: none; }
 
+h2 {
+  font-size: 28px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold; }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -816,8 +822,7 @@ li {
   background-color: #06AADC;
   color: white;
   margin: 0 auto;
-  border: 8px solid white;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 0 7px white, 0 0 0 8px lightgrey; }
 
 .info {
   text-align: center; }
@@ -844,15 +849,15 @@ li {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     text-decoration: none;
-    border-bottom: 1px dotted grey; }
+    border-bottom: 1px dotted grey;
+    color: grey; }
+    .contacts__info a:hover {
+      color: #06AADC;
+      border: none;
+      transition: .5s ease-in-out; }
   .contacts__form--name {
     margin-right: 40px; }
-  .contacts__form--submit {
-    background: #524C4C;
-    color: #fff; }
-    .contacts__form--submit:hover {
-      background: -webkit-linear-gradient(bottom, #524C4C, #716767); }
-  .contacts__form input, .contacts__form .contacts__form--submit, .contacts__form textarea {
+  .contacts__form input, .contacts__form textarea, .contacts__form .contacts__form--submit {
     border: 1px solid #C1C0C0;
     font-size: 16px;
     line-height: 1.1;
@@ -862,6 +867,12 @@ li {
   .contacts__form textarea {
     height: 210px;
     resize: none; }
+  .contacts__form--submit {
+    background: #524C4C;
+    color: #fff;
+    text-align: center; }
+    .contacts__form--submit:hover {
+      background: -webkit-linear-gradient(bottom, #524C4C, #716767); }
   .contacts__social {
     text-align: center;
     padding: 40px 0; }
@@ -965,30 +976,5 @@ li {
     .donate__btn:hover {
       color: #06AADC;
       transition: .5s ease-in-out; }
-
-.btn {
-  height: 50px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  padding: 0 35px;
-  text-align: center;
-  font-weight: 500;
-  color: #fff;
-  transition: .5s ease-in-out;
-  cursor: pointer; }
-  .btn--blue {
-    background: #37C0FB; }
-    .btn--blue:hover {
-      opacity: .9; }
-  .btn--white {
-    background: #fff;
-    color: #333; }
-    .btn--white:hover {
-      color: #37C0FB; }
-  .btn--grey {
-    background: #333; }
-    .btn--grey:hover {
-      opacity: .9; }
 
 /*# sourceMappingURL=style.css.map */

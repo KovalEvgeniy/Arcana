@@ -20,6 +20,13 @@
 			font-size: 18px;
 			text-decoration: none;
 			border-bottom: 1px dotted grey;
+			color: grey;
+
+			&:hover {
+				color:#06AADC;
+				border: none;
+				transition: .5s ease-in-out;
+			}
 		}
 	}
 
@@ -29,17 +36,7 @@
 		&--name {
 			margin-right: 40px;
 		}
-		&--submit {
-			@extend input;
-			//cursor: pointer;
-			background: #524C4C;
-			color: #fff;
-
-			&:hover {
-				background: -webkit-linear-gradient(bottom, #524C4C, #716767);
-			}
-
-		}
+		
 		& input {
 			border: 1px solid #C1C0C0;
 			font-size: 16px;
@@ -52,6 +49,18 @@
 			@extend input;
 			height: 210px;
 			resize: none;
+		}
+		&--submit {
+			@extend input;
+			//cursor: pointer;
+			background: #524C4C;
+			color: #fff;
+			text-align: center;
+
+			&:hover {
+				background: -webkit-linear-gradient(bottom, #524C4C, #716767);
+			}
+
 		}
 	}
 
