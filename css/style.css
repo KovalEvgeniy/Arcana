@@ -787,13 +787,12 @@ a {
 .affix {
   position: fixed; }
 
-<<<<<<< HEAD
 .main-header__caption {
   padding: 40px;
   background: url("../../../img/bg01.png");
   text-align: center;
   font-weight: 100; }
-=======
+
 .advantages-header {
   font-family: 'Open Sans', sans-serif;
   padding: 100px 0;
@@ -801,9 +800,10 @@ a {
   .advantages-header__main-caption {
     font-size: 36px;
     color: #474747;
-    text-align: center; }
+    text-align: center;
+    font-weight: 700; }
   .advantages-header__line {
-    border: 1px solid #949494;
+    border: 1px solid lightgray;
     margin: 30px 0; }
   .advantages-header__second-caption {
     font-size: 26px;
@@ -818,8 +818,9 @@ a {
     .advantages-content__item img {
       float: left;
       margin: 0 30px;
-      border-radius: 5%; }
+      border-radius: 3%; }
     .advantages-content__item h3 {
+      font-weight: 400;
       font-size: 24px;
       color: #474747;
       padding-bottom: 25px; }
@@ -827,6 +828,5 @@ a {
       color: #93939B;
       line-height: 1.3;
       letter-spacing: .3; }
->>>>>>> 21f77d07bd63bd24af088809bdbd07b2be210243
 
 /*# sourceMappingURL=style.css.map */
