@@ -56,5 +56,11 @@
 		}
 	}
 
-	&__footer
+	&__footer {
+		text-align: center;
+
+		&--desing {
+			border-left: 1px solid #C1C0C0;
+		}
+	}
 }
