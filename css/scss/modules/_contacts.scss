@@ -49,20 +49,31 @@
 	&__social {
 		text-align: center;
 		padding:40px 0;
-		opacity: .3;
 
-		& span {
+		& a {
 			padding:20px;
+			opacity: .3;
+			color: #000;
+			&:hover {
+				opacity: 1;
+			}
 		}
 	}
 
 	&__footer {
 		text-align: center;
+		color: #C1C0C0;
 
 
 		&--design {
 			border-left: 1px solid #C1C0C0;
 			padding:0 10px;
+			margin: 0 10px;
+
+			& a {
+				color: #C1C0C0;
+				border-bottom: 1px dotted #C1C0C0;
+			}
 		}
 	}
 }

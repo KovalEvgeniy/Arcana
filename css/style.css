@@ -820,15 +820,23 @@ a {
     padding: 60px 0; }
   .contacts__social {
     text-align: center;
-    padding: 40px 0;
-    opacity: .3; }
-    .contacts__social span {
-      padding: 20px; }
+    padding: 40px 0; }
+    .contacts__social a {
+      padding: 20px;
+      opacity: .3;
+      color: #000; }
+      .contacts__social a:hover {
+        opacity: 1; }
   .contacts__footer {
-    text-align: center; }
+    text-align: center;
+    color: #C1C0C0; }
     .contacts__footer--design {
       border-left: 1px solid #C1C0C0;
-      padding: 0 10px; }
+      padding: 0 10px;
+      margin: 0 10px; }
+      .contacts__footer--design a {
+        color: #C1C0C0;
+        border-bottom: 1px dotted #C1C0C0; }
 
 .advantages-header {
   font-family: 'Open Sans', sans-serif;
