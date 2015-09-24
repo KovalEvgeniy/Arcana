@@ -801,12 +801,12 @@ b {
   text-align: center; }
   .info__image {
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 18px;
     border-radius: 50%;
-    border: 1px solid #38DEF0;
+    border: 1px solid #06AADC;
     height: 100px;
     width: 100px;
-    background-color: #38DEF0;
+    background-color: #06AADC;
     color: white; }
   .info__text {
     padding-top: 40px;
