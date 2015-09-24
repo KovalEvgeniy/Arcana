@@ -1,0 +1,45 @@
+.contacts {
+	background:#EFEFEF;
+
+	&__info {
+
+		& li {
+			list-style: none; 
+			padding: 10px 0;
+			margin: 10px 0;
+		}
+
+		& a {
+			text-decoration: none;
+			border-bottom: 1px dotted grey;
+
+		}
+	}
+
+
+	&__form {
+		
+		&--name {
+			margin-right: 40px;
+		}
+
+		&--submit {
+			background:#524C4C;
+			color: #fff;
+		}
+
+		& input, textarea {
+			border: 1px solid grey;
+			font-size: 16px;
+			line-height: 1.1;
+			padding: 20px;
+			border-radius: 5px;
+			margin-bottom: 40px;
+
+			&:hover {
+				background: rgba(255,255,250,.5);
+				transition: all .5s ease-in-out;
+			}
+		}
+	}
+}

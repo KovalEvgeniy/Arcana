@@ -778,4 +778,29 @@ table {
 .affix {
   position: fixed; }
 
+.contacts {
+  background: #EFEFEF; }
+  .contacts__info li {
+    list-style: none;
+    padding: 10px 0;
+    margin: 10px 0; }
+  .contacts__info a {
+    text-decoration: none;
+    border-bottom: 1px dotted grey; }
+  .contacts__form--name {
+    margin-right: 40px; }
+  .contacts__form--submit {
+    background: #524C4C;
+    color: #fff; }
+  .contacts__form input, .contacts__form textarea {
+    border: 1px solid grey;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px; }
+    .contacts__form input:hover, .contacts__form textarea:hover {
+      background: rgba(255, 255, 250, 0.5);
+      transition: all .5s ease-in-out; }
+
 /*# sourceMappingURL=style.css.map */
