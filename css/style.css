@@ -76,6 +76,12 @@ b {
   content: "";
   clear: both; }
 
+a {
+  color: inherit; }
+
+li {
+  list-style: none; }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -915,9 +921,12 @@ b {
   text-align: center;
   font-weight: 300; }
 
+.nav-wrap {
+  background: #292929; }
 .nav__item {
   display: block;
-  float: left; }
+  float: left;
+  color: #aaa; }
 
 .donate {
   background: #06AADC;

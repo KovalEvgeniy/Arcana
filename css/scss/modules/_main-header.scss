@@ -10,9 +10,15 @@
 }
 .nav {
   
+  &-wrap {
+    background: #292929; 
+  }
+  
   &__item {
     display: block;
     float: left;
+    color: #aaa;
+    
   }
   
 }

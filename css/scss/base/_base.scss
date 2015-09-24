@@ -1,15 +1,23 @@
 body { font: 16px 'Open Sans', sans-serif; }
 
-a { text-decoration: none; }
-
+a {
+  text-decoration: none;
+}
 .container {
   max-width: 1200px;
 }
-
-b { font-weight: 600; }
+b {
+  font-weight: 600;
+}
 
 .clear-fix:after {
   display: block;
   content: "";
   clear: both;
+}
+a {
+  color: inherit;
+}
+li {
+  list-style: none;
 }
