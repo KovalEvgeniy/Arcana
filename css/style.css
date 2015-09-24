@@ -844,15 +844,15 @@ li {
     font-family: Open Sans, sans-serif;
     font-size: 18px;
     text-decoration: none;
-    border-bottom: 1px dotted grey; }
+    border-bottom: 1px dotted grey;
+    color: grey; }
+    .contacts__info a:hover {
+      color: #06AADC;
+      border: none;
+      transition: .5s ease-in-out; }
   .contacts__form--name {
     margin-right: 40px; }
-  .contacts__form--submit {
-    background: #524C4C;
-    color: #fff; }
-    .contacts__form--submit:hover {
-      background: -webkit-linear-gradient(bottom, #524C4C, #716767); }
-  .contacts__form input, .contacts__form .contacts__form--submit, .contacts__form textarea {
+  .contacts__form input, .contacts__form textarea, .contacts__form .contacts__form--submit {
     border: 1px solid #C1C0C0;
     font-size: 16px;
     line-height: 1.1;
@@ -862,6 +862,12 @@ li {
   .contacts__form textarea {
     height: 210px;
     resize: none; }
+  .contacts__form--submit {
+    background: #524C4C;
+    color: #fff;
+    text-align: center; }
+    .contacts__form--submit:hover {
+      background: -webkit-linear-gradient(bottom, #524C4C, #716767); }
   .contacts__social {
     text-align: center;
     padding: 40px 0; }
