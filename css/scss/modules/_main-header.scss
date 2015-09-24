@@ -1,10 +1,17 @@
 .main-header {
   
+  
   &__caption {
     padding: 40px;
     background: url("../../../img/bg01.png");
     text-align: center;
     font-weight: 300;
+  }
+  
+  &__banner {
+    position: relative;
+    height: 300px;
+    background: url("../../../img/banner.jpg");
   }
   
 }
@@ -19,6 +26,28 @@
     float: left;
     color: #aaa;
     
+  }
+  
+}
+.prompt {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(33, 33, 33, 0.8);
+}
+
+.btn {
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding-left: 30px;
+  pading-right: 30px;
+  text-align: center;
+
+  &--blue {
+    background: #37C0FB;
   }
   
 }
