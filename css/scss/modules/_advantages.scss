@@ -9,9 +9,10 @@ $color-light-grey: #93939B;
         font-size: 36px;
         color: $color-grey;
         text-align: center;
+        font-weight: 700;
     }
     &__line {
-        border: 1px solid lighten($color-grey,30%);
+        border: 1px solid lighten($color-grey,55%);
         margin: 30px 0;
     }
     &__second-caption {
@@ -29,9 +30,10 @@ $color-light-grey: #93939B;
         img {
             float: left;
             margin: 0 30px;
-            border-radius: 5%;
+            border-radius: 3%;
         }
         h3 {
+            font-weight: 400;
             font-size: 24px;
             color: $color-grey;
             padding-bottom: 25px;
