@@ -790,11 +790,27 @@ b {
 .affix {
   position: fixed; }
 
-.info-1 {
+.servises {
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 1.5; }
+  line-height: 1.5;
+  height: 500px; }
+
+.info {
+  text-align: center; }
+  .info__image {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid #38DEF0;
+    height: 100px;
+    width: 100px;
+    background-color: #38DEF0;
+    color: white; }
+  .info__text {
+    padding-top: 40px;
+    color: grey; }
 
 .contacts {
   background: #EFEFEF;
