@@ -802,7 +802,15 @@ b {
   .info__image {
     margin-bottom: 30px;
     padding: 20px;
-    border-radius: 50px; }
+    border-radius: 50%;
+    border: 1px solid #38DEF0;
+    height: 100px;
+    width: 100px;
+    background-color: #38DEF0;
+    color: white; }
+  .info__text {
+    padding-top: 40px;
+    color: grey; }
 
 .contacts {
   background: #EFEFEF;
