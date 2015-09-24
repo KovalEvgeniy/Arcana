@@ -1,7 +1,7 @@
 .contacts {
 	background:#EFEFEF;
 	padding:80px 0;
-	
+
 	h3 {
 		font-family: Open Sans, sans-serif;
 		font-size: 18px;
@@ -30,8 +30,15 @@
 			margin-right: 40px;
 		}
 		&--submit {
-			background:#524C4C;
+			@extend input;
+			//cursor: pointer;
+			background: #524C4C;
 			color: #fff;
+
+			&:hover {
+				background: -webkit-linear-gradient(bottom, #524C4C, #716767);
+			}
+
 		}
 		& input {
 			border: 1px solid #C1C0C0;
@@ -43,7 +50,8 @@
 		}
 		& textarea {
 			@extend input;
-			padding:60px 0;
+			height: 210px;
+			resize: none;
 		}
 	}
 
@@ -57,6 +65,9 @@
 			color: #000;
 			&:hover {
 				opacity: 1;
+				transition: .5s ease-in-out;
+				
+
 			}
 		}
 	}

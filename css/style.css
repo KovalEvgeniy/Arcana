@@ -76,6 +76,12 @@ b {
   content: "";
   clear: both; }
 
+a {
+  color: inherit; }
+
+li {
+  list-style: none; }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -844,7 +850,9 @@ b {
   .contacts__form--submit {
     background: #524C4C;
     color: #fff; }
-  .contacts__form input, .contacts__form textarea {
+    .contacts__form--submit:hover {
+      background: -webkit-linear-gradient(bottom, #524C4C, #716767); }
+  .contacts__form input, .contacts__form .contacts__form--submit, .contacts__form textarea {
     border: 1px solid #C1C0C0;
     font-size: 16px;
     line-height: 1.1;
@@ -852,7 +860,8 @@ b {
     border-radius: 5px;
     margin-bottom: 30px; }
   .contacts__form textarea {
-    padding: 60px 0; }
+    height: 210px;
+    resize: none; }
   .contacts__social {
     text-align: center;
     padding: 40px 0; }
@@ -861,7 +870,8 @@ b {
       opacity: .3;
       color: #000; }
       .contacts__social a:hover {
-        opacity: 1; }
+        opacity: 1;
+        transition: .5s ease-in-out; }
   .contacts__footer {
     text-align: center;
     color: #C1C0C0; }
@@ -920,9 +930,12 @@ b {
   text-align: center;
   font-weight: 300; }
 
+.nav-wrap {
+  background: #292929; }
 .nav__item {
   display: block;
-  float: left; }
+  float: left;
+  color: #aaa; }
 
 .donate {
   background: #06AADC;
@@ -936,6 +949,10 @@ b {
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    padding: 20px; }
+    padding: 20px;
+    cursor: pointer; }
+    .donate__btn:hover {
+      color: #06AADC;
+      transition: .5s ease-in-out; }
 
 /*# sourceMappingURL=style.css.map */
