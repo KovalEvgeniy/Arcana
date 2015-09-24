@@ -71,6 +71,11 @@ a {
 b {
   font-weight: 600; }
 
+.clear-fix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -888,6 +893,10 @@ b {
   background: url("../../../img/bg01.png");
   text-align: center;
   font-weight: 300; }
+
+.nav__item {
+  display: block;
+  float: left; }
 
 .donate {
   background: #06AADC;
