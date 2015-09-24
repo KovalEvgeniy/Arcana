@@ -1,32 +1,51 @@
 .main-header {
 
   &__caption {
-    padding: 40px;
+    padding: 50px;
     background: url("../../../img/bg01.png");
     text-align: center;
     font-weight: 300;
+    font-size: 1.5rem;
+    
+    a { transition: .5s; }
+    
+    a:hover {
+      color: #37C0FB;
+    }
   }
   
   &__banner {
     position: relative;
-    height: 300px;
+    height: 400px;
     background: url("../../../img/banner.jpg");
   }
   
 }
 .nav {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
   
   &-wrap {
     background: #292929; 
+    border-bottom: 12px solid #37C0FB;
   }
   
   &__item {
     display: block;
     float: left;
-    color: #aaa;
+    color: #9b9b9b;
+    margin: 0 15px;
+    transition: .5s;
     
+    &:hover {
+      color: #fff; 
+    }
   }
-  
+  &-dropdown {
+    display: none;
+  }
 }
 .prompt {
   position: absolute;
@@ -41,6 +60,8 @@
 }
 .title {
   padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
   
   b {
     color: #fff;
