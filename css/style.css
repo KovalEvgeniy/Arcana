@@ -68,6 +68,9 @@ a {
 .container {
   max-width: 1200px; }
 
+b {
+  font-weight: 600; }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -884,6 +887,6 @@ a {
   padding: 40px;
   background: url("../../../img/bg01.png");
   text-align: center;
-  font-weight: 100; }
+  font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */
