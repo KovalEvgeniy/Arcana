@@ -5,15 +5,17 @@
   border-radius: 5px;
   padding: 0 35px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
+  transition: .5s ease-in-out;
+  font-size: 17px;
 
   &--blue {
     background: #37C0FB;
     color: white;
   }
   &--white {
-    background: #333;
-    color: #333;
+    background: #fff;
+    color: #000;
     
     &:hover {
       color: #37C0FB;
