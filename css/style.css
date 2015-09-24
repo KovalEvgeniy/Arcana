@@ -826,8 +826,9 @@ a {
       padding: 20px; }
   .contacts__footer {
     text-align: center; }
-    .contacts__footer--desing {
-      border-left: 1px solid #C1C0C0; }
+    .contacts__footer--design {
+      border-left: 1px solid #C1C0C0;
+      padding: 0 10px; }
 
 .advantages-header {
   font-family: 'Open Sans', sans-serif;
