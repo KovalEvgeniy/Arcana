@@ -8,14 +8,20 @@
   font-weight: 500;
   transition: .5s ease-in-out;
   font-size: 16px;
+  color: #fff;
+  transition: .5s ease-in-out;
+  cursor: pointer;
 
   &--blue {
     background: #37C0FB;
-    color: white;
+    
+    &:hover { 
+      opacity: .9;
+    }
   }
   &--white {
     background: #fff;
-    color: #000;
+    color: #333;
     
     &:hover {
       color: #37C0FB;
