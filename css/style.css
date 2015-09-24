@@ -977,4 +977,29 @@ h2 {
       color: #06AADC;
       transition: .5s ease-in-out; }
 
+.btn {
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 35px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+  .btn--blue {
+    background: #37C0FB; }
+    .btn--blue:hover {
+      opacity: .9; }
+  .btn--white {
+    background: #fff;
+    color: #333; }
+    .btn--white:hover {
+      color: #37C0FB; }
+  .btn--grey {
+    background: #333; }
+    .btn--grey:hover {
+      opacity: .9; }
+
 /*# sourceMappingURL=style.css.map */
