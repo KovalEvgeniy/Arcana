@@ -808,20 +808,25 @@ li {
   line-height: 1.5;
   height: 500px; }
 
+.circle__image {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 50%;
+  background-color: #06AADC;
+  color: white;
+  margin: 0 auto;
+  border: 8px solid white;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2); }
+
 .info {
   text-align: center; }
-  .info__image {
-    margin-bottom: 30px;
-    padding: 18px;
-    border-radius: 50%;
-    border: 1px solid #06AADC;
-    height: 100px;
-    width: 100px;
-    background-color: #06AADC;
-    color: white; }
+  .info__heading {
+    padding-top: 35px;
+    font-weight: 600; }
   .info__text {
-    padding-top: 40px;
-    color: grey; }
+    color: grey;
+    padding-top: 30px; }
 
 .contacts {
   background: #EFEFEF;
