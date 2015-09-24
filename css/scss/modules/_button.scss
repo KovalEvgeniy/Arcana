@@ -1,0 +1,29 @@
+.btn {
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 35px;
+  text-align: center;
+  font-weight: 500;
+
+  &--blue {
+    background: #37C0FB;
+    color: white;
+  }
+  &--white {
+    background: #333;
+    color: #333;
+    
+    &:hover {
+      color: #37C0FB;
+    }
+  }
+  &--grey {
+    background: #333;
+    
+    &:hover {
+      opacity: .9;
+    }
+  }
+}

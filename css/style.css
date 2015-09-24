@@ -935,6 +935,10 @@ li {
   background: url("../../../img/bg01.png");
   text-align: center;
   font-weight: 300; }
+.main-header__banner {
+  position: relative;
+  height: 300px;
+  background: url("../../../img/banner.jpg"); }
 
 .nav-wrap {
   background: #292929; }
@@ -942,6 +946,12 @@ li {
   display: block;
   float: left;
   color: #aaa; }
+
+.prompt {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(33, 33, 33, 0.8); }
 
 .donate {
   background: #06AADC;
@@ -961,5 +971,26 @@ li {
     .donate__btn:hover {
       color: #06AADC;
       transition: .5s ease-in-out; }
+
+.btn {
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 35px;
+  text-align: center;
+  font-weight: 500; }
+  .btn--blue {
+    background: #37C0FB;
+    color: white; }
+  .btn--white {
+    background: #333;
+    color: #333; }
+    .btn--white:hover {
+      color: #37C0FB; }
+  .btn--grey {
+    background: #333; }
+    .btn--grey:hover {
+      opacity: .9; }
 
 /*# sourceMappingURL=style.css.map */
