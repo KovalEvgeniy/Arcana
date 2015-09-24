@@ -1,0 +1,60 @@
+.contacts {
+	background:#EFEFEF;
+	padding:80px 0;
+	h3 {
+		font-family: Open Sans, sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+		padding-bottom: 30px;
+	}
+
+	&__info {
+		& li {
+			list-style: none; 
+			padding: 10px 0;
+			margin: 10px 0;
+		}
+		& a {
+			font-family: Open Sans, sans-serif;
+			font-size: 18px;
+			text-decoration: none;
+			border-bottom: 1px dotted grey;
+		}
+	}
+
+
+	&__form {
+		
+		&--name {
+			margin-right: 40px;
+		}
+		&--submit {
+			background:#524C4C;
+			color: #fff;
+		}
+		& input {
+			border: 1px solid #C1C0C0;
+			font-size: 16px;
+			line-height: 1.1;
+			padding: 20px;
+			border-radius: 5px;
+			margin-bottom: 30px;
+		}
+		& textarea {
+			@extend input;
+			padding:60px 0;
+		}
+	}
+
+	&__social {
+		text-align: center;
+		padding:40px 0;
+		opacity: .3;
+
+		& span {
+			padding:20px;
+		}
+	}
+
+	&__footer
+}
